@@ -1,0 +1,18 @@
+{
+  "name": "JobAutoApply Dev Container",
+  "image": "mcr.microsoft.com/playwright/dotnet:v1.49.0-jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "pwsh bin/Debug/net8.0/playwright.ps1 install",
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-playwright.playwright"
+      ]
+    }
+  }
+}
