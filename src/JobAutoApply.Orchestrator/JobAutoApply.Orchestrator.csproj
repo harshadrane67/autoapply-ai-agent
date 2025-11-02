@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobAutoApply.Core\JobAutoApply.Core.csproj" />
+    <ProjectReference Include="..\JobAutoApply.Workday\JobAutoApply.Workday.csproj" />
+    <ProjectReference Include="..\JobAutoApply.GeminiService\JobAutoApply.GeminiService.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

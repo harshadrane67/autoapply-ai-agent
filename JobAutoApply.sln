@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{08926A6D-6312-44B2-9144-1D410B523105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAutoApply.Core", "src\JobAutoApply.Core\JobAutoApply.Core.csproj", "{BE561849-687E-4C28-8A4B-6FEF4862BF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAutoApply.GeminiService", "src\JobAutoApply.GeminiService\JobAutoApply.GeminiService.csproj", "{A1D6C1B4-E2DB-4DD8-AFB4-6C8C7C702467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAutoApply.Workday", "src\JobAutoApply.Workday\JobAutoApply.Workday.csproj", "{EE2CDC18-26AE-4580-B1B8-AA8A353E9727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAutoApply.Orchestrator", "src\JobAutoApply.Orchestrator\JobAutoApply.Orchestrator.csproj", "{D6126A7A-2341-4EC9-8895-142909E24010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE561849-687E-4C28-8A4B-6FEF4862BF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE561849-687E-4C28-8A4B-6FEF4862BF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE561849-687E-4C28-8A4B-6FEF4862BF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE561849-687E-4C28-8A4B-6FEF4862BF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D6C1B4-E2DB-4DD8-AFB4-6C8C7C702467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D6C1B4-E2DB-4DD8-AFB4-6C8C7C702467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D6C1B4-E2DB-4DD8-AFB4-6C8C7C702467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D6C1B4-E2DB-4DD8-AFB4-6C8C7C702467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2CDC18-26AE-4580-B1B8-AA8A353E9727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2CDC18-26AE-4580-B1B8-AA8A353E9727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2CDC18-26AE-4580-B1B8-AA8A353E9727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2CDC18-26AE-4580-B1B8-AA8A353E9727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6126A7A-2341-4EC9-8895-142909E24010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6126A7A-2341-4EC9-8895-142909E24010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6126A7A-2341-4EC9-8895-142909E24010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6126A7A-2341-4EC9-8895-142909E24010}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE561849-687E-4C28-8A4B-6FEF4862BF8A} = {08926A6D-6312-44B2-9144-1D410B523105}
+		{A1D6C1B4-E2DB-4DD8-AFB4-6C8C7C702467} = {08926A6D-6312-44B2-9144-1D410B523105}
+		{EE2CDC18-26AE-4580-B1B8-AA8A353E9727} = {08926A6D-6312-44B2-9144-1D410B523105}
+		{D6126A7A-2341-4EC9-8895-142909E24010} = {08926A6D-6312-44B2-9144-1D410B523105}
+	EndGlobalSection
+EndGlobal
